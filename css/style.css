@@ -1291,25 +1291,6 @@ body.menu-open {
     object-fit: contain;
 }
 
-.footer-logo-main {
-  font-size: 24px;
-
-  font-weight: 800;
-
-  letter-spacing: 1px;
-}
-
-
-.footer-logo-sub {
-  color: #4ed39b;
-
-  font-size: 8px;
-
-  letter-spacing: 1.7px;
-
-  margin-top: 4px;
-}
-
 
 .footer-brand p {
   color: #b7c6d3;
