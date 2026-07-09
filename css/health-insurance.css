@@ -2472,4 +2472,335 @@ button {
 
   }
 
+  }
+
+  .coverage-visual {
+    min-height: 400px;
+  }
+
+  .plans-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .who-wrapper {
+    grid-template-columns: 1fr;
+    gap: 45px;
+  }
+
+  .who-content {
+    text-align: center;
+  }
+
+  .check-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .support-steps {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .step-line {
+    display: none;
+  }
+
+  .cta-box {
+    flex-wrap: wrap;
+  }
+
+  .cta-actions {
+    width: 100%;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+
+/* ========================================
+   MOBILE
+======================================== */
+
+@media (max-width: 650px) {
+
+  .topbar {
+    min-height: auto;
+    padding: 10px 15px;
+    gap: 10px;
+  }
+
+  .topbar-item {
+    font-size: 11px;
+  }
+
+  .navbar {
+    min-height: 82px;
+    padding: 0 15px;
+  }
+
+  .logo img {
+    width: 160px;
+    max-height: 55px;
+  }
+
+  .header-actions {
+    gap: 10px;
+  }
+
+  .quote-btn {
+    padding: 10px 12px;
+    font-size: 12px;
+  }
+
+  .menu-btn {
+    font-size: 26px;
+  }
+
+  .nav-links {
+    top: 82px;
+    padding: 20px;
+  }
+
+
+  /* HERO */
+
+  .health-hero {
+    min-height: auto;
+    padding: 65px 20px;
+    gap: 30px;
+  }
+
+  .hero-content h1 {
+    font-size: 42px;
+    line-height: 1.1;
+  }
+
+  .hero-content > p {
+    font-size: 16px;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+  }
+
+  .primary-btn,
+  .secondary-btn {
+    width: 100%;
+  }
+
+  .hero-points {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+
+  /* COMMON */
+
+  .section-heading {
+    margin-bottom: 40px;
+  }
+
+  .section-heading h2 {
+    font-size: 34px;
+  }
+
+  .section-heading p {
+    font-size: 15px;
+  }
+
+
+  /* WHY HEALTH */
+
+  .why-health-section {
+    padding: 75px 20px;
+  }
+
+  .why-health-grid {
+    grid-template-columns: 1fr;
+  }
+
+
+  /* COVERAGE */
+
+  .coverage-section {
+    padding: 75px 20px;
+  }
+
+  .coverage-wrapper {
+    gap: 45px;
+  }
+
+  .coverage-content {
+    text-align: center;
+  }
+
+  .coverage-content h2 {
+    font-size: 36px;
+  }
+
+  .coverage-list {
+    grid-template-columns: 1fr;
+    text-align: left;
+  }
+
+  .coverage-visual {
+    min-height: 330px;
+  }
+
+  .coverage-shield {
+    width: 145px;
+    height: 145px;
+    font-size: 62px;
+    border-radius: 38px;
+  }
+
+  .protection-label {
+    bottom: 30px;
+  }
+
+
+  /* PLANS */
+
+  .plans-section {
+    padding: 75px 20px;
+  }
+
+  .plans-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .plan-card h3,
+  .plan-card > p {
+    min-height: auto;
+  }
+
+
+  /* WHO */
+
+  .who-section {
+    padding: 75px 20px;
+  }
+
+  .who-wrapper {
+    gap: 40px;
+  }
+
+  .who-content h2 {
+    font-size: 36px;
+  }
+
+  .who-grid {
+    grid-template-columns: 1fr;
+  }
+
+
+  /* HOW TO CHOOSE */
+
+  .choose-plan-section {
+    padding: 75px 20px;
+  }
+
+  .check-grid {
+    grid-template-columns: 1fr;
+  }
+
+
+  /* SUPPORT */
+
+  .support-section {
+    padding: 75px 20px;
+  }
+
+  .support-steps {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .support-step {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .step-number {
+    right: 55px;
+  }
+
+
+  /* FAQ */
+
+  .faq-section {
+    padding: 75px 20px;
+  }
+
+  .faq-question {
+    padding: 18px;
+    font-size: 15px;
+    gap: 15px;
+  }
+
+  .faq-answer p {
+    padding: 0 18px 20px;
+  }
+
+
+  /* CTA */
+
+  .final-cta {
+    padding: 60px 15px;
+  }
+
+  .cta-box {
+    padding: 30px 22px;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .cta-content h2 {
+    font-size: 24px;
+  }
+
+  .cta-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .cta-primary,
+  .cta-secondary {
+    width: 100%;
+  }
+
+
+  /* FOOTER */
+
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .footer-brand,
+  .footer-links,
+  .footer-contact {
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-brand p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  /* WHATSAPP */
+
+  .floating-whatsapp {
+    width: 54px;
+    height: 54px;
+    right: 16px;
+    bottom: 16px;
+    font-size: 27px;
+  }
+
 }
