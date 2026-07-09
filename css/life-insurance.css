@@ -1814,3 +1814,248 @@ textarea {
 
   .hero-actions,
   .hero-points {
+    justify-content: center;
+  }
+
+
+  .hero-visual {
+    display: none;
+  }
+
+
+  .plans-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+
+  .why-life-wrapper,
+  .term-wrapper,
+  .quote-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+
+  .family-visual {
+    display: none;
+  }
+
+
+  .term-visual {
+    min-height: 340px;
+  }
+
+
+  .stage-timeline {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 20px;
+  }
+
+
+  .stage-card {
+    width: 100%;
+  }
+
+
+  .timeline-arrow {
+    display: none;
+  }
+
+
+  .guidance-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+
+  .cta-box {
+    flex-wrap: wrap;
+  }
+
+
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+  .topbar {
+    min-height: 60px;
+
+    padding: 0 5%;
+  }
+
+
+  .topbar-item {
+    font-size: 12px;
+  }
+
+
+  .navbar {
+    min-height: 112px;
+
+    padding: 0 20px;
+  }
+
+
+  .logo img {
+    width: 230px;
+
+    max-width: 48vw;
+  }
+
+
+  .nav-links {
+    top: 112px;
+  }
+
+
+  .quote-btn {
+    padding: 12px 14px;
+
+    font-size: 13px;
+  }
+
+
+  .header-actions {
+    gap: 12px;
+  }
+
+
+  .life-hero {
+    min-height: auto;
+
+    padding: 65px 22px 75px;
+  }
+
+
+  .hero-content h1 {
+    font-size: 42px;
+  }
+
+
+  .hero-content > p {
+    font-size: 16px;
+  }
+
+
+  .hero-actions {
+    flex-direction: column;
+  }
+
+
+  .primary-btn,
+  .secondary-btn {
+    width: 100%;
+  }
+
+
+  .hero-points {
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 12px;
+  }
+
+
+  .plans-section,
+  .why-life-section,
+  .term-section,
+  .life-stage-section,
+  .guidance-section,
+  .quote-section,
+  .faq-section {
+    padding: 75px 20px;
+  }
+
+
+  .plans-grid {
+    grid-template-columns: 1fr;
+  }
+
+
+  .plan-card > p {
+    min-height: auto;
+  }
+
+
+  .benefit-list {
+    grid-template-columns: 1fr;
+  }
+
+
+  .term-visual {
+    display: none;
+  }
+
+
+  .stage-timeline {
+    grid-template-columns: 1fr;
+  }
+
+
+  .stage-card {
+    min-height: auto;
+  }
+
+
+  .guidance-grid {
+    grid-template-columns: 1fr;
+  }
+
+
+  .form-row {
+    grid-template-columns: 1fr;
+
+    gap: 0;
+  }
+
+
+  .quote-form-box {
+    padding: 25px 20px;
+  }
+
+
+  .final-cta {
+    padding: 65px 20px;
+  }
+
+
+  .cta-box {
+    padding: 30px 22px;
+
+    flex-direction: column;
+
+    align-items: flex-start;
+  }
+
+
+  .cta-actions {
+    width: 100%;
+
+    flex-direction: column;
+  }
+
+
+  .cta-primary,
+  .cta-secondary {
+    width: 100%;
+  }
+
+
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+
+
+  .footer-logo img {
+    width: 190px;
+  }
+
+}
