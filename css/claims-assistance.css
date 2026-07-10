@@ -1824,4 +1824,198 @@ textarea {
 
 
   .support-grid {
-    grid-template-colu
+    grid-template-columns: 1fr 1fr;
+  }
+
+
+  .cta-box {
+    flex-wrap: wrap;
+  }
+
+
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+  .topbar {
+    min-height: 60px;
+
+    padding: 0 5%;
+  }
+
+
+  .topbar-item {
+    font-size: 12px;
+  }
+
+
+  .navbar {
+    min-height: 112px;
+
+    padding: 0 20px;
+  }
+
+
+  .logo img {
+    width: 230px;
+
+    max-width: 48vw;
+  }
+
+
+  .nav-links {
+    top: 112px;
+  }
+
+
+  .quote-btn {
+    padding: 12px 14px;
+
+    font-size: 13px;
+  }
+
+
+  .header-actions {
+    gap: 12px;
+  }
+
+
+  .claim-hero {
+    min-height: auto;
+
+    padding: 65px 22px 75px;
+  }
+
+
+  .hero-content h1 {
+    font-size: 42px;
+  }
+
+
+  .hero-content > p {
+    font-size: 16px;
+  }
+
+
+  .hero-actions {
+    flex-direction: column;
+  }
+
+
+  .primary-btn,
+  .secondary-btn {
+    width: 100%;
+  }
+
+
+  .hero-points {
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 12px;
+  }
+
+
+  .claim-types-section,
+  .process-section,
+  .important-section,
+  .documents-section,
+  .support-section,
+  .claim-help-section,
+  .faq-section {
+    padding: 75px 20px;
+  }
+
+
+  .claim-grid {
+    grid-template-columns: 1fr;
+  }
+
+
+  .claim-card > p {
+    min-height: auto;
+  }
+
+
+  .process-grid {
+    grid-template-columns: 1fr;
+  }
+
+
+  .process-card {
+    min-height: auto;
+  }
+
+
+  .important-visual {
+    display: none;
+  }
+
+
+  .documents-grid {
+    grid-template-columns: 1fr;
+  }
+
+
+  .support-grid {
+    grid-template-columns: 1fr;
+  }
+
+
+  .form-row {
+    grid-template-columns: 1fr;
+
+    gap: 0;
+  }
+
+
+  .claim-form-box {
+    padding: 25px 20px;
+  }
+
+
+  .final-cta {
+    padding: 65px 20px;
+  }
+
+
+  .cta-box {
+    padding: 30px 22px;
+
+    flex-direction: column;
+
+    align-items: flex-start;
+  }
+
+
+  .cta-actions {
+    width: 100%;
+
+    flex-direction: column;
+  }
+
+
+  .cta-primary,
+  .cta-secondary {
+    width: 100%;
+  }
+
+
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+
+
+  .footer-logo img {
+    width: 190px;
+  }
+
+}
