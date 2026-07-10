@@ -1291,6 +1291,30 @@ body.menu-open {
     object-fit: contain;
 }
 
+.footer-business-info {
+  margin-top: 18px;
+}
+
+.footer-business-info h3 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+.footer-business-info .footer-tagline {
+  margin: 4px 0 0;
+  color: #20B878;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.footer-description {
+  margin-top: 18px;
+  color: #B9C6D0;
+  line-height: 1.7;
+}
 
 .footer-brand p {
   color: #b7c6d3;
