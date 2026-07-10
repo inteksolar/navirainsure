@@ -1428,6 +1428,12 @@ body.menu-open {
   text-align: center;
 }
 
+.footer-contact a {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
 
 /* ==================================================
    QUOTE POPUP
