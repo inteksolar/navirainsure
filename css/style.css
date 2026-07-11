@@ -105,8 +105,10 @@ body.menu-open {
 
 .top-contact i {
   color: #20b878;
+  font-size: 20px;
+  min-width: 22px;
+  text-align: center;
 }
-
 
 /* ==================================================
    MAIN HEADER
